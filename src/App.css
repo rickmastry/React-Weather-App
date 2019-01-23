@@ -125,3 +125,94 @@ button:active {
   letter-spacing: 1px;
   font-weight: 200;
 }
+
+
+@media only screen and (max-width: 768px) and (orientation : portrait) {
+
+
+.title-container__title {
+  font-size: 25px;
+}
+
+.title-container__subtitle {
+  font-size: 15px;
+}
+
+.container-fluid {
+  padding-right: 1px;
+  padding-left: 1px;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.row {
+  margin-right: -30px;
+  margin-left: -30px;
+}
+
+input[type="text"] {
+  font-size: 10px;
+  width: 50%;
+}
+
+.weather__info {
+  width: 95%;
+  font-size: 10px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.form-container {
+  height: 90vh;
+  padding-top: 80px;
+  padding-left: 30px;
+}
+
+}
+
+@media only screen and (max-width: 748px) and (orientation : landscape){
+  .title-container__title {
+    font-size: 25px;
+  }
+
+  .title-container__subtitle {
+    font-size: 15px;
+  }
+
+  .container-fluid {
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+
+  .row {
+    margin-right: -30px;
+    margin-left: -30px;
+  }
+
+  input[type="text"] {
+    font-size: 10px;
+    width: 50%;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+  }
+
+  .weather__info {
+    width: 95%;
+    font-size: 10px;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+
+  .form-container {
+    height: 90vh;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
+  .weather__key {
+    padding: 12px 0 12px 0;
+  }
+
+}
