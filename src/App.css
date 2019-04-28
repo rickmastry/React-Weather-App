@@ -152,13 +152,14 @@ button:active {
 }
 
 input[type="text"] {
-  font-size: 10px;
+  font-size: 20px;
   width: 80%;
+  margin-bottom: 10px;
 }
 
 .weather__info {
   width: 95%;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -166,7 +167,25 @@ input[type="text"] {
 .form-container {
   height: 90vh;
   padding-top: 30px;
-  padding-left: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0 2px;
+  border-radius: 2px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #f16051;
+  color: #fff;
+  font-weight: 100;
+  
 }
 
 
@@ -196,22 +215,23 @@ input[type="text"] {
 
   input[type="text"] {
     font-size: 10px;
-    width: 50%;
-    margin-bottom: 5px;
+    width: 43%;
+    margin-bottom: 2px;
     padding-bottom: 2px;
   }
 
   .weather__info {
     width: 95%;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 200;
     letter-spacing: 1px;
   }
 
   .form-container {
     height: 90vh;
-    padding-top: 20px;
-    padding-left: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   button {
@@ -228,16 +248,87 @@ input[type="text"] {
     background-color: #f16051;
     color: #fff;
     font-weight: 100;
+    float:right;
   }
 
   .weather__key {
-    padding: 12px 0 12px 0;
-  }
+    padding: 15px 0 15px 0;
+}
 
   .weather__key:last-child {
     border: 0;
     padding-top: 1px;
     
 }
+
+}
+
+@media only screen and (max-width: 361px) and (orientation : portrait){
+  .title-container__title {
+    font-size: 25px;
+  }
+  
+  .title-container__subtitle {
+    font-size: 15px;
+  }
+  
+  .container-fluid {
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+  
+  .row {
+    margin-right: -30px;
+    margin-left: -30px;
+  }
+  
+  input[type="text"] {
+    font-size: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  
+  .weather__info {
+    width: 95%;
+    font-size: 10px;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+  
+  .form-container {
+    height: 90vh;
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  
+  button {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 2px;
+    border-radius: 2px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #f16051;
+    color: #fff;
+    font-weight: 100;
+    
+  }
+}
+
+@media only screen and (max-width: 569px) and (orientation: landscape){
+  .weather__key {
+    padding: 10px 0 10px 0;
+  }
+
+  input[type="text"] {
+   
+    margin-bottom: 2px;
+  }
 
 }
