@@ -258,6 +258,18 @@ button {
 
 }
 
+@media only screen and (max-width: 569px) and (orientation: landscape){
+  .weather__key {
+    padding: 1px 0 4px 0;
+  }
+
+  input[type="text"] {
+   
+    margin-bottom: 2px;
+  }
+
+}
+
 @media only screen and (max-width: 361px) and (orientation : portrait){
   .title-container__title {
     font-size: 25px;
@@ -316,14 +328,4 @@ button {
   }
 }
 
-@media only screen and (max-width: 569px) and (orientation: landscape){
-  .weather__key {
-    padding: 10px 0 10px 0;
-  }
 
-  input[type="text"] {
-   
-    margin-bottom: 2px;
-  }
-
-}
